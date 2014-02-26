@@ -14,7 +14,7 @@ development:
   database: buildertrend_development
   pool: 5
   username: root
-  password:
+  password: prachi
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -26,7 +26,7 @@ test:
   database: buildertrend_test
   pool: 5
   username: root
-  password:
+  password: prachi
   host: localhost
 
 production:
@@ -35,5 +35,5 @@ production:
   database: buildertrend_production
   pool: 5
   username: root
-  password:
+  password: prachi
   host: localhost
