@@ -5,5 +5,11 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
          
   has_and_belongs_to_many :roles
+  
+  
+  def admin?
+    roles.map(&:name).include?('admin')    
+  end
+  
 end
   
